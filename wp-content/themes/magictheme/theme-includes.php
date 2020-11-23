@@ -3,12 +3,12 @@ define( 'MAGIC', true );
 define('MAGIC_ROOT', get_template_directory_uri());
 define('MAGIC_ROOT_DIR', get_template_directory());
 define('MAGIC_VAR_PREFIX', 'magic_');
-define('MAGIC_FRAMEWORK_ROOT', get_template_directory_uri().'/framework');
-define('MAGIC_FRAMEWORK_ROOT_DIR', get_template_directory().'/framework');
-define('MAGIC_FRAMEWORK_ADMIN_ASSETS_ROOT', get_template_directory_uri() . '/framework/admin/assets' );
+define('MAGIC_FRAMEWORK_ROOT', get_template_directory_uri().'/magic_framework');
+define('MAGIC_FRAMEWORK_ROOT_DIR', get_template_directory().'/magic_framework');
+define('MAGIC_FRAMEWORK_ADMIN_ASSETS_ROOT', get_template_directory_uri() . '/magic_framework/admin/assets' );
 define('MAGIC_SHORTCODES_ROOT_DIR', get_template_directory().'/includes/shortcodes/shortcode-elements');
-define('MAGIC_FRAMEWORK_MODULES_ROOT', get_template_directory_uri().'/framework/modules');
-define('MAGIC_FRAMEWORK_MODULES_ROOT_DIR', get_template_directory().'/framework/modules');
+define('MAGIC_FRAMEWORK_MODULES_ROOT', get_template_directory_uri().'/magic_framework/modules');
+define('MAGIC_FRAMEWORK_MODULES_ROOT_DIR', get_template_directory().'/magic_framework/modules');
 define('MAGIC_INCLUDES_ROOT', MAGIC_ROOT . '/includes');
 define('MAGIC_INCLUDES_ROOT_DIR', MAGIC_ROOT_DIR . '/includes');
 

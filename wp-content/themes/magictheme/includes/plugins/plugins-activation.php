@@ -1,5 +1,5 @@
 <?php
-// @TODO: Must be modify
+// @TODO - Modify this file
 if(!function_exists('bridge_qode_set_plugins_array_to_install')){
 	function bridge_qode_set_plugins_array_to_install(){
 		global $default_plugins_array_to_install;
